@@ -1,0 +1,7 @@
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+
+a.nav-link {
+    text-align: right;
+}

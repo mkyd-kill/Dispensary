@@ -1,0 +1,13 @@
+This is the sql code to be written onto the database
+Inside the table are the different columns that go inside the table
+
+CREATE TABLE {tableName} (
+    n_id int(11) not null PRIMARY KEY AUTO_INCREMENT,
+    patName char(256) not null,
+    date_admitted datetime not null
+);
+Date in sql takes up the format of yyyy-mm-dd hh:mm:ss
+
+This next one is used to insert values to the created table via sql
+INSERT INTO {tableName} (patName, date_admitted)
+VALUES ('Racheal Nyambura', '2019-12-15');
